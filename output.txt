@@ -53,34 +53,7 @@ locations:
 
  ----------------------------------------------------------------------
 
-#2> query: total farm area in Cocnino County
-columns: 
-13.5, AGRICULTURE Amount Farm Inventory Upland Cotton
-13.5, AGRICULTURE Median Area Farm
-13.4, AGRICULTURE Area Farm Irrigated Land
-12.9, AGRICULTURE Area Farm Producer White Alone
-12.9, AGRICULTURE Count Farm Upland Cotton
-12.8, AGRICULTURE Area Farm Primary Producer Hispanic Or Latino
-12.8, AGRICULTURE Area Farm Pima Cotton
-12.8, AGRICULTURE Area Farm Peanuts For Nuts
-12.7, AGRICULTURE Area Farm Cropland
-12.6, AGRICULTURE Count Farm 50 To179 Acre
-
-locations: 
-15.4, AGRICULTURE Coconino County
-15.1, AGRICULTURE Coosa County
-15.1, AGRICULTURE Coos County
-15.1, AGRICULTURE Covington County
-15.1, AGRICULTURE Coffey County
-14.8, AGRICULTURE Pamlico County
-14.7, AGRICULTURE Concho County
-14.5, AGRICULTURE Baca County
-14.4, AGRICULTURE Presidio County
-14.4, AGRICULTURE Garza County
-
- ----------------------------------------------------------------------
-
-#3> query: total farm area in Maryland
+#2> query: total farm area in Maryland
 columns: 
 16.6, AGRICULTURE Median Area Farm
 16.4, AGRICULTURE Amount Farm Inventory Upland Cotton
@@ -107,7 +80,7 @@ locations:
 
  ----------------------------------------------------------------------
 
-#4> query: total farm area
+#3> query: total farm area
 columns: 
 22.9, AGRICULTURE Median Area Farm
 22.0, AGRICULTURE Amount Farm Inventory Upland Cotton
@@ -131,6 +104,33 @@ locations:
 13.5, AGRICULTURE New York
 13.4, AGRICULTURE Waushara County
 13.4, AGRICULTURE Minnesota
+
+ ----------------------------------------------------------------------
+
+#4> query: farm area
+columns: 
+26.6, AGRICULTURE Area Farm
+26.5, AGRICULTURE Area Farm Cropland
+26.5, AGRICULTURE Area Farm Forage
+26.5, AGRICULTURE Median Area Farm
+26.4, AGRICULTURE Area Farm Orchards
+26.0, AGRICULTURE Mean Area Farm
+25.9, AGRICULTURE Area Farm Irrigated Land
+25.7, AGRICULTURE Area Farm Harvested Cropland
+25.0, AGRICULTURE Area Farm Upland Cotton
+25.0, AGRICULTURE Area Farm Cotton
+
+locations: 
+16.3, AGRICULTURE Centre County
+16.3, AGRICULTURE Florida
+16.1, AGRICULTURE Boundary County
+16.0, AGRICULTURE Real County
+16.0, AGRICULTURE Indiana
+15.9, AGRICULTURE South Carolina
+15.8, AGRICULTURE Orange County
+15.8, AGRICULTURE North Carolina
+15.8, AGRICULTURE Maryland
+15.8, AGRICULTURE Major County
 
  ----------------------------------------------------------------------
 
