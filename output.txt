@@ -1,0 +1,297 @@
+
+#0> query: what is the total farm area in coconino county?
+columns: 
+13.5, AGRICULTURE Amount Farm Inventory Sunflower Seed
+13.4, AGRICULTURE Area Farm Pima Cotton
+13.4, AGRICULTURE Amount Farm Inventory Peanuts For Nuts
+13.3, AGRICULTURE Amount Farm Inventory Upland Cotton
+13.2, AGRICULTURE Amount Farm Inventory Pima Cotton
+13.1, AGRICULTURE Area Farm Primary Producer Hispanic Or Latino
+13.0, AGRICULTURE Count Farm 50 To179 Acre
+13.0, AGRICULTURE Area Farm Producer Hispanic Or Latino
+13.0, AGRICULTURE Count Farm 1 To9.9 Acre
+12.8, AGRICULTURE Count Farm Pima Cotton
+
+locations: 
+17.8, AGRICULTURE Coconino County
+14.7, ECONOMICS Coconino County
+14.4, AGRICULTURE Terrell County
+14.3, AGRICULTURE Cimarron County
+14.3, AGRICULTURE Presidio County
+14.2, AGRICULTURE Bonneville County
+14.2, AGRICULTURE Conecuh County
+14.2, AGRICULTURE Cambria County
+14.2, AGRICULTURE Botetourt County
+14.2, AGRICULTURE San Jacinto County
+
+ ----------------------------------------------------------------------
+
+#1> query: farm area in Coconino County
+columns: 
+14.1, AGRICULTURE Area Farm Peanuts For Nuts
+14.1, AGRICULTURE Area Farm Producer Hispanic Or Latino
+14.0, AGRICULTURE Area Farm Primary Producer Hispanic Or Latino
+13.7, AGRICULTURE Area Farm Pima Cotton
+13.6, AGRICULTURE Area Farm Sunflower Seed
+13.0, AGRICULTURE Area Farm Irrigated Land
+13.0, AGRICULTURE Area Farm Sugarbeets For Sugar
+12.9, AGRICULTURE Area Farm Dry Edible Beans
+12.8, AGRICULTURE Area Farm Corn For Silage Or Greenchop
+12.7, AGRICULTURE Area Farm Upland Cotton
+
+locations: 
+20.2, AGRICULTURE Coconino County
+16.7, ECONOMICS Coconino County
+16.2, AGRICULTURE Terrell County
+16.0, AGRICULTURE Bonneville County
+15.9, AGRICULTURE Presidio County
+15.8, AGRICULTURE Botetourt County
+15.8, AGRICULTURE Pamlico County
+15.8, AGRICULTURE Cimarron County
+15.7, AGRICULTURE Prentiss County
+15.6, AGRICULTURE Calumet County
+
+ ----------------------------------------------------------------------
+
+#2> query: total farm area in Cocnino County
+columns: 
+13.5, AGRICULTURE Amount Farm Inventory Upland Cotton
+13.5, AGRICULTURE Median Area Farm
+13.4, AGRICULTURE Area Farm Irrigated Land
+12.9, AGRICULTURE Area Farm Producer White Alone
+12.9, AGRICULTURE Count Farm Upland Cotton
+12.8, AGRICULTURE Area Farm Primary Producer Hispanic Or Latino
+12.8, AGRICULTURE Area Farm Pima Cotton
+12.8, AGRICULTURE Area Farm Peanuts For Nuts
+12.7, AGRICULTURE Area Farm Cropland
+12.6, AGRICULTURE Count Farm 50 To179 Acre
+
+locations: 
+15.4, AGRICULTURE Coconino County
+15.1, AGRICULTURE Coosa County
+15.1, AGRICULTURE Coos County
+15.1, AGRICULTURE Covington County
+15.1, AGRICULTURE Coffey County
+14.8, AGRICULTURE Pamlico County
+14.7, AGRICULTURE Concho County
+14.5, AGRICULTURE Baca County
+14.4, AGRICULTURE Presidio County
+14.4, AGRICULTURE Garza County
+
+ ----------------------------------------------------------------------
+
+#3> query: total farm area in Maryland
+columns: 
+16.6, AGRICULTURE Median Area Farm
+16.4, AGRICULTURE Amount Farm Inventory Upland Cotton
+16.1, AGRICULTURE Count Farm 10 To49.9 Acre
+16.1, AGRICULTURE Count Farm 1 To9.9 Acre
+16.1, AGRICULTURE Count Farm 50 To179 Acre
+16.0, AGRICULTURE Count Farm 180 To499 Acre
+16.0, AGRICULTURE Count Farm Inventory Sheep And Lambs
+15.9, AGRICULTURE Count Farm 500 To999 Acre
+15.8, AGRICULTURE Area Farm Forage
+15.8, AGRICULTURE Area Farm Cropland
+
+locations: 
+20.0, AGRICULTURE Maryland
+16.6, EDUCATION Census Tract 4203.01, Baltimore County, Maryland
+16.6, EDUCATION Census Tract 7003.04, Montgomery County, Maryland
+16.6, CLIMATE Census Tract 7008.29, Montgomery County, Maryland
+16.5, EDUCATION Census Tract 7080.01, Anne Arundel County, Maryland
+16.5, EDUCATION Census Tract 8002.14, Prince George's County, Maryland
+16.5, EDUCATION Census Tract 3012.02, Harford County, Maryland
+16.3, CLIMATE Census Tract 313.01, Cecil County, Maryland
+16.2, CLIMATE Census Tract 3032.06, Harford County, Maryland
+16.2, CLIMATE Census Tract 309.03, Cecil County, Maryland
+
+ ----------------------------------------------------------------------
+
+#4> query: total farm area
+columns: 
+22.9, AGRICULTURE Median Area Farm
+22.0, AGRICULTURE Amount Farm Inventory Upland Cotton
+22.0, AGRICULTURE Count Farm 1 To9.9 Acre
+21.8, AGRICULTURE Count Farm 10 To49.9 Acre
+21.7, AGRICULTURE Count Farm 50 To179 Acre
+21.6, AGRICULTURE Count Farm 180 To499 Acre
+21.5, AGRICULTURE Count Farm 500 To999 Acre
+20.8, AGRICULTURE Mean Area Farm
+20.2, AGRICULTURE Count Farm
+20.0, AGRICULTURE Count Farm Cropland
+
+locations: 
+14.2, AGRICULTURE Sumter County
+14.0, AGRICULTURE United States
+13.8, AGRICULTURE Dimmit County
+13.8, AGRICULTURE Costilla County
+13.6, AGRICULTURE Major County
+13.5, AGRICULTURE Gage County
+13.5, AGRICULTURE Boundary County
+13.5, AGRICULTURE New York
+13.4, AGRICULTURE Waushara County
+13.4, AGRICULTURE Minnesota
+
+ ----------------------------------------------------------------------
+
+#5> query: count of wild fires in Dane County
+columns: 
+16.0, CLIMATE Count Wildland Fire Event
+15.6, CLIMATE Count Wildfire Event
+12.4, CLIMATE Count Astronomical Low Tide Event
+12.3, CLIMATE Count Volcanic Ash Event
+12.0, CLIMATE Count Volcanic Ashfall Event
+12.0, CLIMATE Count Seiche Event
+12.0, CLIMATE Count Marine Lightning Event
+11.9, CLIMATE Count Marine Strong Wind Event
+11.8, CLIMATE Count Dense Smoke Event
+11.8, CLIMATE Count Coastal Flood Event
+
+locations: 
+15.9, CLIMATE Census Tract 11.02, Dane County, Wisconsin
+15.8, CLIMATE Block Group 3, Census Tract 116, Dane County, Wisconsin
+15.8, CLIMATE Block Group 2, Census Tract 17.05, Dane County, Wisconsin
+15.8, CLIMATE Block Group 2, Census Tract 16.05, Dane County, Wisconsin
+15.7, CLIMATE Census Tract 20, Dane County, Wisconsin
+15.7, CLIMATE Block Group 3, Census Tract 9.02, Dane County, Wisconsin
+15.7, CLIMATE Block Group 4, Census Tract 16.06, Dane County, Wisconsin
+15.6, CLIMATE Block Group 1, Census Tract 11.02, Dane County, Wisconsin
+15.5, CLIMATE Block Group 2, Census Tract 119, Dane County, Wisconsin
+15.5, CLIMATE Block Group 2, Census Tract 2.04, Dane County, Wisconsin
+
+ ----------------------------------------------------------------------
+
+#6> query: Dane County
+columns: 
+8.6, EDUCATION Count School Government Aided
+8.4, EDUCATION Count School Higher Secondary School Grade1 To12 Government Aided
+8.4, EDUCATION Count School Higher Secondary School Grade11 To12 Government Aided
+8.3, EDUCATION Count Person Educational Attainment Less Than High School Graduate Different House In Same County
+8.3, EDUCATION Count School Primary School Grade1 To5 Government Aided
+8.2, EDUCATION Count School Higher Secondary School Grade9 To12 Government Aided
+8.1, EDUCATION Count School Upper Primary School Grade6 To12 Government Aided
+8.1, EDUCATION Count Person Educational Attainment Bachelors Degree Different House In Same County
+7.9, EDUCATION Count School Upper Primary School Grade6 To8 Government Aided
+7.9, EDUCATION Count Person Educational Attainment Graduate Or Professional Degree Different House In Same County
+
+locations: 
+27.5, AGRICULTURE Dane County
+27.4, ECONOMICS Dane County
+27.0, EDUCATION Dane County
+26.7, CLIMATE Dane County
+26.0, EDUCATION Census Tract 11.02, Dane County, Wisconsin
+25.7, CLIMATE Census Tract 20, Dane County, Wisconsin
+25.5, CLIMATE Census Tract 11.02, Dane County, Wisconsin
+25.2, CLIMATE Block Group 3, Census Tract 116, Dane County, Wisconsin
+25.2, EDUCATION Block Group 2, Census Tract 17.05, Dane County, Wisconsin
+25.2, EDUCATION Block Group 3, Census Tract 9.02, Dane County, Wisconsin
+
+ ----------------------------------------------------------------------
+
+#7> query: what is the total population of New York?
+columns: 
+11.8, CLIMATE Population Weighted Concentration Air Pollutant Ozone
+9.8, ECONOMICS Amount Economic Activity Gross National Income Purchasing Power Parity Per Capita
+9.4, CLIMATE Population Weighted Concentration Air Pollutant PM2.5
+9.2, AGRICULTURE Count Farm 50 To179 Acre
+9.2, CLIMATE Max Concentration Air Pollutant Ozone
+9.1, CLIMATE Air Quality Index Air Pollutant Ozone
+9.1, CLIMATE Median Concentration Air Pollutant Ozone
+9.0, AGRICULTURE Count Farm 180 To499 Acre
+9.0, AGRICULTURE Count Farm 1 To9.9 Acre
+8.8, AGRICULTURE Count Farm Upto1000US Dollar
+
+locations: 
+15.7, AGRICULTURE New York
+15.7, EDUCATION Census Tract 223.02, New York County, New York
+15.5, ECONOMICS New York
+15.5, EDUCATION Census Tract 226, New York County, New York
+15.4, CLIMATE Census Tract 144.01, New York County, New York
+15.3, CLIMATE Census Tract 223.02, New York County, New York
+15.2, EDUCATION Census Tract 9604.05, Nye County, Nevada
+15.2, ECONOMICS Manhattan
+15.1, AGRICULTURE Manhattan
+15.1, EDUCATION Census Tract 257, Queens County, New York
+
+ ----------------------------------------------------------------------
+
+#8> query: total number of farms with irrigated land?
+columns: 
+22.8, AGRICULTURE Count Farm Irrigated Land
+21.1, AGRICULTURE Area Farm Irrigated Land
+20.8, AGRICULTURE Count Farm 180 To499 Acre
+19.7, AGRICULTURE Count Farm 50 To179 Acre
+19.5, AGRICULTURE Count Farm 500 To999 Acre
+19.5, AGRICULTURE Count Farm 10 To49.9 Acre
+19.4, AGRICULTURE Count Farm 1 To9.9 Acre
+19.2, AGRICULTURE Count Farm Forage
+18.8, AGRICULTURE Count Farm Cropland
+18.8, AGRICULTURE Count Farm Harvested Cropland
+
+locations: 
+13.0, AGRICULTURE United States
+12.6, AGRICULTURE Lander County
+12.4, AGRICULTURE Arizona
+12.4, AGRICULTURE New York
+12.4, AGRICULTURE New Mexico
+12.4, AGRICULTURE St. Landry Parish
+12.3, AGRICULTURE Iowa
+12.2, AGRICULTURE Nevada
+12.2, AGRICULTURE Alaska
+12.1, AGRICULTURE Minnesota
+
+ ----------------------------------------------------------------------
+
+#9> query: what is the dropout rate of students in primary schools?
+columns: 
+26.9, EDUCATION Dropout Rate Student Primary School
+26.6, EDUCATION Dropout Rate Student Male Primary School
+26.0, EDUCATION Dropout Rate Student Female Primary School
+25.8, EDUCATION Dropout Rate Student Primary School Other Backward Class
+25.6, EDUCATION Dropout Rate Student Primary School General Category
+25.4, EDUCATION Dropout Rate Student Primary School Scheduled Caste
+25.1, EDUCATION Dropout Rate Student Male Primary School Other Backward Class
+25.1, EDUCATION Dropout Rate Student Primary School Scheduled Tribe
+24.9, EDUCATION Dropout Rate Student Male Primary School General Category
+24.8, EDUCATION Dropout Rate Student Female Primary School Other Backward Class
+
+locations: 
+10.8, EDUCATION Era Independent School District
+10.7, EDUCATION S and S Consolidated Independent School District
+10.6, EDUCATION Ryegate K-12 Schools
+10.5, EDUCATION District 8
+10.5, EDUCATION Leslie Public Schools
+10.5, EDUCATION District 4
+10.4, EDUCATION Woodward Public Schools
+10.3, EDUCATION Republic School District
+10.3, EDUCATION Basin Elementary School District
+10.2, EDUCATION Capital School District
+
+ ----------------------------------------------------------------------
+
+#10> query: what is the rate of interest for 2 years
+columns: 
+19.8, ECONOMICS Interest Rate Treasury Note Year2
+16.8, ECONOMICS Interest Rate Treasury Bond Year20
+16.6, ECONOMICS Interest Rate Treasury Bond Year30
+16.5, ECONOMICS Interest Rate Treasury Bill Year1
+16.2, ECONOMICS Interest Rate Treasury Note Year5
+16.1, ECONOMICS Interest Rate Treasury Note Year7
+16.1, ECONOMICS Interest Rate Treasury Note Year10
+16.1, ECONOMICS Interest Rate Treasury Note Year3
+14.9, ECONOMICS Interest Rate Treasury Bill Month6
+14.9, ECONOMICS Interest Rate Treasury Bill Month3
+
+locations: 
+9.7, EDUCATION District 2
+9.3, EDUCATION Block Group 2, Census Tract 31, Rock County, Wisconsin
+9.3, EDUCATION Census Tract 2, Monterey County, California
+9.1, EDUCATION Census Tract 2, Garfield County, Oklahoma
+9.0, EDUCATION Census Tract 2, Adams County, Mississippi
+8.9, EDUCATION Block Group 2, Census Tract 3660.02, Contra Costa County, California
+8.9, CLIMATE Census Tract 2, Freestone County, Texas
+8.9, CLIMATE Census Tract 2, Monterey County, California
+8.8, EDUCATION Block Group 2, Census Tract 3300, Contra Costa County, California
+8.7, CLIMATE Block Group 2, Census Tract 305.06, Cecil County, Maryland
+
+ ----------------------------------------------------------------------
