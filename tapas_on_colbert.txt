@@ -1,0 +1,209 @@
+
+
+Query: total farm area in camp county
+
+Table
+
++----+------------------+--------------+--------------+-------------+--------------+-----------------+-----------------+--------------------+----------------------+------------------+---------------------+--------------------+----------------------+
+|    | place name       | place dcid   | place type   |   Area Farm |   Count Farm |   Expenses Farm |     Income Farm |   Median Area Farm |   Area Farm Orchards |   Mean Area Farm |   Count Farm Layers |   Area Farm Cotton |   Area Farm Potatoes |
+|----+------------------+--------------+--------------+-------------+--------------+-----------------+-----------------+--------------------+----------------------+------------------+---------------------+--------------------+----------------------|
+|  0 | Love County      | geoId/40085  | County       |      202572 |          725 |     2.6867e+07  |      1.37e+06   |                110 |                 5462 |              279 |                  78 |                nan |                  nan |
+|  1 | Camp County      | geoId/48063  | County       |       77255 |          484 |     9.9331e+07  | 526000          |                 60 |                  240 |              160 |                  48 |                nan |                    2 |
+|  2 | Barren County    | geoId/21009  | County       |      253834 |         1899 |     1.12472e+08 |      1.1988e+07 |                 60 |                   23 |              134 |                 114 |                nan |                    2 |
+|  3 | Petroleum County | geoId/30069  | County       |      592558 |          104 |     1.4605e+07  |      1.066e+06  |               2500 |                  nan |             5698 |                   2 |                nan |                  nan |
+|  4 | Price County     | geoId/55099  | County       |       89203 |          410 |     2.0625e+07  |      1.625e+06  |                120 |                  nan |              218 |                  64 |                nan |                    1 |
+|  5 | Rich County      | geoId/49033  | County       |      374947 |          160 |     1.8002e+07  |      1.97e+06   |                390 |                  nan |             2343 |                  11 |                nan |                    1 |
+|  6 | Divide County    | geoId/38023  | County       |      704197 |          416 |     7.1653e+07  |      1.0809e+07 |                800 |                  nan |             1693 |                  14 |                nan |                  nan |
+|  7 | Power County     | geoId/16077  | County       |      486377 |          295 |     2.23064e+08 |      8.339e+06  |                554 |                    2 |             1649 |                  10 |                nan |                43848 |
++----+------------------+--------------+--------------+-------------+--------------+-----------------+-----------------+--------------------+----------------------+------------------+---------------------+--------------------+----------------------+
+
+answer:  SUM > 77255.0
+
+
+Query: total farm area in camp county and park county
+
+Table
+
++----+----------------+--------------+--------------+------------------+--------------+-----------------+-----------------+--------------------+----------------------+--------------------+---------------------+----------------------+------------------+
+|    | place name     | place dcid   | place type   |        Area Farm |   Count Farm |   Expenses Farm |     Income Farm |   Median Area Farm |   Area Farm Orchards |   Area Farm Cotton |   Count Farm Layers |   Area Farm Potatoes |   Area Farm Rice |
+|----+----------------+--------------+--------------+------------------+--------------+-----------------+-----------------+--------------------+----------------------+--------------------+---------------------+----------------------+------------------|
+|  0 | Park County    | geoId/08093  | County       | 189110           |          278 |     7.264e+06   |      1.472e+06  |                119 |                  nan |                nan |                  44 |                  nan |              nan |
+|  1 | Prairie County | geoId/05117  | County       | 272597           |          350 |     1.01043e+08 |      5.066e+06  |                274 |                  nan |                nan |                  10 |                  nan |            60003 |
+|  2 | Prairie County | geoId/30079  | County       | 747256           |          179 |     3.9101e+07  |      2.261e+06  |               1800 |                  nan |                nan |                   9 |                  nan |              nan |
+|  3 | Park County    | geoId/56029  | County       | 929926           |         1008 |     9.0821e+07  |      6.739e+06  |                 60 |                   23 |                nan |                 146 |                    2 |              nan |
+|  4 | Garden County  | geoId/31069  | County       |      1.01838e+06 |          221 |     6.977e+07   |      2.768e+06  |                690 |                  nan |                nan |                  13 |                  nan |              nan |
+|  5 | Camp County    | geoId/48063  | County       |  77255           |          484 |     9.9331e+07  | 526000          |                 60 |                  240 |                nan |                  48 |                    2 |              nan |
+|  6 | Pine County    | geoId/27115  | County       | 160316           |          823 |     3.2873e+07  |      1.522e+06  |                110 |                   26 |                nan |                 116 |                  nan |              nan |
+|  7 | Price County   | geoId/55099  | County       |  89203           |          410 |     2.0625e+07  |      1.625e+06  |                120 |                  nan |                nan |                  64 |                    1 |              nan |
+|  8 | Park County    | geoId/30067  | County       | 711966           |          575 |     3.6749e+07  |      5.298e+06  |                159 |                    1 |                nan |                  88 |                  nan |              nan |
+|  9 | Divide County  | geoId/38023  | County       | 704197           |          416 |     7.1653e+07  |      1.0809e+07 |                800 |                  nan |                nan |                  14 |                  nan |              nan |
+| 10 | Forest County  | geoId/42053  | County       |   4170           |           36 |     1.747e+06   |    nan          |                110 |                  nan |                nan |                   5 |                  nan |              nan |
++----+----------------+--------------+--------------+------------------+--------------+-----------------+-----------------+--------------------+----------------------+--------------------+---------------------+----------------------+------------------+
+
+answer:  SUM > 189110.0, 929926.0, 77255.0, 711966.0
+
+
+Query: number of farms owned by blacks in dane county
+
+Table
+
++----+-------------------+--------------+--------------+--------------+--------------------+--------------------+---------------------+---------------------------+------------------------------+
+|    | place name        | place dcid   | place type   |   Count Farm |   Median Area Farm |   Area Farm Cotton |   Count Farm Cotton |   Area Farm Upland Cotton |   Count Farm Reported Income |
+|----+-------------------+--------------+--------------+--------------+--------------------+--------------------+---------------------+---------------------------+------------------------------|
+|  0 | Dane County       | geoId/55025  | County       |         2566 |                 61 |                nan |                 nan |                       nan |                         1569 |
+|  1 | Black Hawk County | geoId/19013  | County       |          968 |                 84 |                nan |                 nan |                       nan |                          572 |
+|  2 | Hardin County     | geoId/21093  | County       |         1305 |                 50 |                nan |                 nan |                       nan |                          339 |
+|  3 | Christian County  | geoId/17021  | County       |          794 |                137 |                nan |                 nan |                       nan |                          428 |
+|  4 | Hardin County     | geoId/17069  | County       |          161 |                100 |                nan |                 nan |                       nan |                           42 |
+|  5 | Pitkin County     | geoId/08097  | County       |          112 |                 37 |                nan |                 nan |                       nan |                           46 |
+|  6 | Rich County       | geoId/49033  | County       |          160 |                390 |                nan |                 nan |                       nan |                           55 |
+|  7 | LaSalle County    | geoId/17099  | County       |         1496 |                126 |                nan |                 nan |                       nan |                          848 |
+|  8 | Christian County  | geoId/21047  | County       |         1137 |                 96 |                nan |                 nan |                       nan |                          659 |
+|  9 | Hardin County     | geoId/19083  | County       |          837 |                120 |                nan |                 nan |                       nan |                          546 |
+| 10 | Hardin County     | geoId/48199  | County       |          661 |                 27 |                nan |                 nan |                       nan |                          107 |
++----+-------------------+--------------+--------------+--------------+--------------------+--------------------+---------------------+---------------------------+------------------------------+
+
+answer:  SUM > 2566
+
+
+Query: number of farms owned by asians in dane county
+
+Table
+
++----+--------------+--------------+--------------+--------------+--------------------+----------------------------------+-----------------------------------+
+|    | place name   | place dcid   | place type   |   Count Farm |   Median Area Farm |   Area Farm Producer Asian Alone |   Count Farm Producer Asian Alone |
+|----+--------------+--------------+--------------+--------------+--------------------+----------------------------------+-----------------------------------|
+|  0 | Dane County  | geoId/55025  | County       |         2566 |                 61 |                              506 |                                32 |
+|  1 | Essex County | geoId/51057  | County       |           88 |                110 |                              nan |                                 2 |
+|  2 | Essex County | geoId/36031  | County       |          285 |                 70 |                              nan |                               nan |
+|  3 | Essex County | geoId/50009  | County       |          106 |                150 |                              nan |                               nan |
+|  4 | Essex County | geoId/34013  | County       |           22 |                  6 |                              nan |                                 1 |
++----+--------------+--------------+--------------+--------------+--------------------+----------------------------------+-----------------------------------+
+
+answer:  SUM > 2566
+
+
+Query: air quality index of New York
+
+Table
+
++----+--------------------------------------------+-------------------+--------------+-----------------------------------------------+--------------------------------------------+-----------------------------------+-----------------------------+------------------------------------+--------------------------------------+-----------------------------------------+--------------------------------------+---------------------------------------+
+|    | place name                                 | place dcid        | place type   |   Standardized Precipitation Index Atmosphere |   Palmer Drought Severity Index Atmosphere |   Air Quality Index Air Pollutant |   Air Pollutant Cancer Risk |   Air Pollutant Respiratory Hazard |   Air Quality Index Air Pollutant CO |   Air Quality Index Air Pollutant Ozone |   Max Concentration Air Pollutant CO |   Air Quality Index Air Pollutant NO2 |
+|----+--------------------------------------------+-------------------+--------------+-----------------------------------------------+--------------------------------------------+-----------------------------------+-----------------------------+------------------------------------+--------------------------------------+-----------------------------------------+--------------------------------------+---------------------------------------|
+|  0 | Census Tract 29, Richmond County, New York | geoId/36085002900 | CensusTract  |                                           nan |                                        nan |                               nan |                     34.1141 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  1 | Census Tract 311, Madison County, New York | geoId/36053031100 | CensusTract  |                                           nan |                                        nan |                               nan |                     16.4513 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  2 | Census Tract 5, Columbia County, New York  | geoId/36021000500 | CensusTract  |                                           nan |                                        nan |                               nan |                     24.4506 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  3 | Census Tract 105, Putnam County, New York  | geoId/36079010500 | CensusTract  |                                           nan |                                        nan |                               nan |                     23.3631 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  4 | Census Tract 70, Monroe County, New York   | geoId/36055007000 | CensusTract  |                                           nan |                                        nan |                               nan |                     24.8034 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  5 | Census Tract 22, Orange County, New York   | geoId/36071002200 | CensusTract  |                                           nan |                                        nan |                               nan |                     25.2561 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  6 | Census Tract 33, Monroe County, New York   | geoId/36055003300 | CensusTract  |                                           nan |                                        nan |                               nan |                     24.3087 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
+|  7 | Census Tract 20, Monroe County, New York   | geoId/36055002000 | CensusTract  |                                           nan |                                        nan |                               nan |                     23.9836 |                                nan |                                  nan |                                     nan |                                  nan |                                   nan |
++----+--------------------------------------------+-------------------+--------------+-----------------------------------------------+--------------------------------------------+-----------------------------------+-----------------------------+------------------------------------+--------------------------------------+-----------------------------------------+--------------------------------------+---------------------------------------+
+
+answer:  SUM > nan, nan, nan, nan, nan, nan, nan, nan
+
+
+Query: quaterly GDP of New York
+
+Table
+
++----+-------------------+--------------+--------------+--------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+
+|    | place name        | place dcid   | place type   |   Inflation Adjusted GDP |   US State Quarterly Industry GDP NAICS 71 |   US State Quarterly Industry GDP NAICS 62 |   US State Quarterly Industry GDP NAICS 72 |   US State Quarterly Industry GDP NAICS 56 |   US State Quarterly Industry GDP NAICS 52 |   US State Quarterly Industry GDP NAICS 21 |   US State Quarterly Industry GDP NAICS 42 |   US State Quarterly Industry GDP NAICS 81 |   US State Quarterly Industry GDP NAICS 61 |
+|----+-------------------+--------------+--------------+--------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------|
+|  0 | New Hampshire     | geoId/33     | State        |              8.98365e+10 |                                1.1706e+09  |                                8.3777e+09  |                                3.0702e+09  |                                3.2425e+09  |                                7.2442e+09  |                                 4.44e+07   |                                5.7721e+09  |                                1.9577e+09  |                                2.0549e+09  |
+|  1 | New Mexico        | geoId/35     | State        |              1.05264e+11 |                                7.245e+08   |                                8.0196e+09  |                                3.4516e+09  |                                2.995e+09   |                                3.6514e+09  |                                 8.2678e+09 |                                3.477e+09   |                                2.2228e+09  |                                5.71e+08    |
+|  2 | New York          | geoId/36     | State        |              1.75167e+12 |                                2.57975e+10 |                                1.32261e+11 |                                4.39148e+10 |                                4.91794e+10 |                                3.18753e+11 |                                 7.629e+08  |                                7.75413e+10 |                                3.24605e+10 |                                3.57315e+10 |
+|  3 | New Castle County | geoId/10003  | County       |            nan           |                              nan           |                              nan           |                              nan           |                              nan           |                              nan           |                               nan          |                              nan           |                              nan           |                              nan           |
+|  4 | New Jersey        | geoId/34     | State        |              5.66558e+11 |                                6.4078e+09  |                                5.22297e+10 |                                1.4099e+10  |                                2.55312e+10 |                                4.32625e+10 |                                 2.826e+08  |                                5.34863e+10 |                                1.26666e+10 |                                7.8829e+09  |
+|  5 | New London County | geoId/09011  | County       |            nan           |                              nan           |                              nan           |                              nan           |                              nan           |                              nan           |                               nan          |                              nan           |                              nan           |                              nan           |
+|  6 | Nye County        | geoId/32023  | County       |            nan           |                              nan           |                              nan           |                              nan           |                              nan           |                              nan           |                               nan          |                              nan           |                              nan           |                              nan           |
+|  7 | Newberry County   | geoId/45071  | County       |            nan           |                              nan           |                              nan           |                              nan           |                              nan           |                              nan           |                               nan          |                              nan           |                              nan           |                              nan           |
+|  8 | New Madrid County | geoId/29143  | County       |            nan           |                              nan           |                              nan           |                              nan           |                              nan           |                              nan           |                               nan          |                              nan           |                              nan           |                              nan           |
++----+-------------------+--------------+--------------+--------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+--------------------------------------------+
+
+answer:  SUM > 1751674200000.0
+
+
+Query: how many students are asian or black in dane county
+
+Table
+
++----+--------------------------------------------+-------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+-----------------------+----------------------+------------------------+------------------------------------+----------------------------+-------------------------------------+
+|    | place name                                 | place dcid        | place type     |   Count Student Black |   Count Student Asian |   Count Student Male Black |   Count Student Female Black |   Count Student White |   Count Student Male |   Count Student Female |   Count Student Asian Kindergarten |   Count Student Male White |   Count Student Black Middle School |
+|----+--------------------------------------------+-------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+-----------------------+----------------------+------------------------+------------------------------------+----------------------------+-------------------------------------|
+|  0 | Randolph County Schools                    | geoId/sch3703780  | SchoolDistrict |                   665 |                   272 |                        347 |                          318 |                 12654 |                 9055 |                   8312 |                                 21 |                       6604 |                                 160 |
+|  1 | Burke County Schools                       | geoId/sch3700480  | SchoolDistrict |                   597 |                   789 |                        334 |                          263 |                  8678 |                 6562 |                   6022 |                                 44 |                       4479 |                                 126 |
+|  2 | Dane County                                | geoId/55025       | County         |                   nan |                   nan |                        nan |                          nan |                   nan |                  nan |                    nan |                                nan |                        nan |                                 nan |
+|  3 | Ware County School District                | geoId/sch1305430  | SchoolDistrict |                  2252 |                    52 |                       1137 |                         1115 |                  3146 |                 3116 |                   3060 |                                  4 |                       1579 |                                 471 |
+|  4 | Jackson County Schools                     | geoId/sch3702340  | SchoolDistrict |                    57 |                    59 |                         40 |                           17 |                  2731 |                 1974 |                   1798 |                                  8 |                       1432 |                                  15 |
+|  5 | Census Tract 11.02, Dane County, Wisconsin | geoId/55025001102 | CensusTract    |                   nan |                   nan |                        nan |                          nan |                   nan |                  nan |                    nan |                                nan |                        nan |                                 nan |
++----+--------------------------------------------+-------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+-----------------------+----------------------+------------------------+------------------------------------+----------------------------+-------------------------------------+
+
+answer:  SUM > nan
+
+
+Query: how many students are asian or black in new york
+
+Table
+
++----+-------------------------------------------+-------------------+--------------+-----------------------+-----------------------+----------------------------+------------------------------+------------------------------------+----------------------------+------------------------------+-----------------------+------------------------------------+----------------------+
+|    | place name                                | place dcid        | place type   |   Count Student Black |   Count Student Asian |   Count Student Male Black |   Count Student Female Black |   Count Student Black Kindergarten |   Count Student Male Asian |   Count Student Female Asian |   Count Student White |   Count Student Asian Kindergarten |   Count Student Male |
+|----+-------------------------------------------+-------------------+--------------+-----------------------+-----------------------+----------------------------+------------------------------+------------------------------------+----------------------------+------------------------------+-----------------------+------------------------------------+----------------------|
+|  0 | Census Tract 257, Queens County, New York | geoId/36081025700 | CensusTract  |                   nan |                   nan |                        nan |                          nan |                                nan |                        nan |                          nan |                   nan |                                nan |                  nan |
++----+-------------------------------------------+-------------------+--------------+-----------------------+-----------------------+----------------------------+------------------------------+------------------------------------+----------------------------+------------------------------+-----------------------+------------------------------------+----------------------+
+
+answer:  SUM > 
+
+
+Query: how much is the cancer risk in New York
+
+Table
+
++----+--------------------------------------------+-------------------+--------------+-----------------------------+------------------------------------+--------------------------------------------+-----------------------------------------+-----------------------------------------------------------------------+
+|    | place name                                 | place dcid        | place type   |   Air Pollutant Cancer Risk |   Air Pollutant Respiratory Hazard |   Palmer Drought Severity Index Atmosphere |   Air Quality Index Air Pollutant PM2.5 |   Annual Emissions Greenhouse Gas Adipic Acid Production Non Biogenic |
+|----+--------------------------------------------+-------------------+--------------+-----------------------------+------------------------------------+--------------------------------------------+-----------------------------------------+-----------------------------------------------------------------------|
+|  0 | Census Tract 257, Queens County, New York  | geoId/36081025700 | CensusTract  |                     48.0871 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  1 | Census Tract 311, Madison County, New York | geoId/36053031100 | CensusTract  |                     16.4513 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  2 | Census Tract 560, Queens County, New York  | geoId/36081056000 | CensusTract  |                     37.4959 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  3 | Census Tract 206, Queens County, New York  | geoId/36081020600 | CensusTract  |                     36.4646 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  4 | Census Tract 580, Queens County, New York  | geoId/36081058000 | CensusTract  |                     37.9763 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  5 | Census Tract 34, Queens County, New York   | geoId/36081003400 | CensusTract  |                     38.2941 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  6 | Census Tract 33, Queens County, New York   | geoId/36081003300 | CensusTract  |                     48.7752 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  7 | Census Tract 148, Queens County, New York  | geoId/36081014800 | CensusTract  |                     34.7667 |                                nan |                                        nan |                                     nan |                                                                   nan |
+|  8 | Census Tract 153, Queens County, New York  | geoId/36081015300 | CensusTract  |                     47.0104 |                                nan |                                        nan |                                     nan |                                                                   nan |
++----+--------------------------------------------+-------------------+--------------+-----------------------------+------------------------------------+--------------------------------------------+-----------------------------------------+-----------------------------------------------------------------------+
+
+answer:  SUM > 48.7751879724923
+
+
+Query: which county has highest cancer risk in New York
+
+Table
+
++--------------+--------------+--------------+-----------------------------+
+| place name   | place dcid   | place type   | Air Pollutant Cancer Risk   |
+|--------------+--------------+--------------+-----------------------------|
++--------------+--------------+--------------+-----------------------------+
+
+answer:  SUM > 
+
+
+Query: what is the number of kendriya schools
+
+Table
+
++----+------------------------------+------------------+----------------+------------------------------+---------------------------------------+-----------------------------------+------------------------------------------+------------------------------------------+----------------------------------+-----------------------------------+-------------------------------------------+------------------------------------------------+-------------------------------------+
+|    | place name                   | place dcid       | place type     |   Count School Sainik School |   Count School Central Tibetan School |   Count School Madrasa Recognized |   Count School Tribal Welfare Department |   Count School Social Welfare Department |   Count School Ministry Of Labor |   Count School Kendriya Vidyalaya |   Count School Has Computer Sainik School |   Count School Has Computer Kendriya Vidyalaya |   Count School Madrasa Unrecognized |
+|----+------------------------------+------------------+----------------+------------------------------+---------------------------------------+-----------------------------------+------------------------------------------+------------------------------------------+----------------------------------+-----------------------------------+-------------------------------------------+------------------------------------------------+-------------------------------------|
+|  0 | Randolph County Schools      | geoId/sch3703780 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  1 | Burke County Schools         | geoId/sch3700480 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  2 | Leslie Public Schools        | geoId/sch2621450 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  3 | Jackson County Schools       | geoId/sch3702340 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  4 | Republic School District     | geoId/sch5307260 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  5 | Southwest School Corporation | geoId/sch1810860 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  6 | Frederick Public Schools     | geoId/sch4012150 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  7 | Woodward Public Schools      | geoId/sch4033180 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
+|  8 | Capital School District      | geoId/sch1000190 | SchoolDistrict |                          nan |                                   nan |                               nan |                                      nan |                                      nan |                              nan |                               nan |                                       nan |                                            nan |                                 nan |
++----+------------------------------+------------------+----------------+------------------------------+---------------------------------------+-----------------------------------+------------------------------------------+------------------------------------------+----------------------------------+-----------------------------------+-------------------------------------------+------------------------------------------------+-------------------------------------+
+
+answer:  SUM > Randolph County Schools, Burke County Schools, Leslie Public Schools, Jackson County Schools, Republic School District, Southwest School Corporation, Frederick Public Schools, Woodward Public Schools, Capital School District
