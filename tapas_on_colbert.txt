@@ -155,6 +155,22 @@ Table
 answer:  SUM > 
 
 
+Query: how many students are black or asian in Randolph County Schools
+
+Table
+
++----+------------------------------+------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+----------------------------+------------------------------------+--------------------------------------+-------------------------------------+-----------------------------------+-------------------------------------+
+|    | place name                   | place dcid       | place type     |   Count Student Black |   Count Student Asian |   Count Student Male Black |   Count Student Female Asian |   Count Student Male Asian |   Count Student Asian Kindergarten |   Count Student Black Primary School |   Count Student Black Middle School |   Count Student Black High School |   Count Student Asian Middle School |
+|----+------------------------------+------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+----------------------------+------------------------------------+--------------------------------------+-------------------------------------+-----------------------------------+-------------------------------------|
+|  0 | Randolph County Schools      | geoId/sch3703780 | SchoolDistrict |                   665 |                   272 |                        347 |                          131 |                        141 |                                 21 |                                  284 |                                 160 |                               215 |                                  56 |
+|  1 | Burke County Schools         | geoId/sch3700480 | SchoolDistrict |                   597 |                   789 |                        334 |                          339 |                        450 |                                 44 |                                  237 |                                 126 |                               226 |                                 182 |
+|  2 | Jackson County Schools       | geoId/sch3702340 | SchoolDistrict |                    57 |                    59 |                         40 |                           28 |                         31 |                                  8 |                                   22 |                                  15 |                                20 |                                  16 |
+|  3 | Union County School District | geoId/sch4704290 | SchoolDistrict |                   169 |                    15 |                         89 |                            2 |                         13 |                                  1 |                                   95 |                                  68 |                                 5 |                                   5 |
++----+------------------------------+------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+----------------------------+------------------------------------+--------------------------------------+-------------------------------------+-----------------------------------+-------------------------------------+
+
+answer:  SUM > 665.0
+
+
 Query: how much is the cancer risk in New York
 
 Table
@@ -209,17 +225,3 @@ Table
 answer:  SUM > Randolph County Schools, Burke County Schools, Leslie Public Schools, Jackson County Schools, Republic School District, Southwest School Corporation, Frederick Public Schools, Woodward Public Schools, Capital School District
 
 
-Query: how many students are black or asian in Randolph County Schools
-
-Table
-
-+----+------------------------------+------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+----------------------------+------------------------------------+--------------------------------------+-------------------------------------+-----------------------------------+-------------------------------------+
-|    | place name                   | place dcid       | place type     |   Count Student Black |   Count Student Asian |   Count Student Male Black |   Count Student Female Asian |   Count Student Male Asian |   Count Student Asian Kindergarten |   Count Student Black Primary School |   Count Student Black Middle School |   Count Student Black High School |   Count Student Asian Middle School |
-|----+------------------------------+------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+----------------------------+------------------------------------+--------------------------------------+-------------------------------------+-----------------------------------+-------------------------------------|
-|  0 | Randolph County Schools      | geoId/sch3703780 | SchoolDistrict |                   665 |                   272 |                        347 |                          131 |                        141 |                                 21 |                                  284 |                                 160 |                               215 |                                  56 |
-|  1 | Burke County Schools         | geoId/sch3700480 | SchoolDistrict |                   597 |                   789 |                        334 |                          339 |                        450 |                                 44 |                                  237 |                                 126 |                               226 |                                 182 |
-|  2 | Jackson County Schools       | geoId/sch3702340 | SchoolDistrict |                    57 |                    59 |                         40 |                           28 |                         31 |                                  8 |                                   22 |                                  15 |                                20 |                                  16 |
-|  3 | Union County School District | geoId/sch4704290 | SchoolDistrict |                   169 |                    15 |                         89 |                            2 |                         13 |                                  1 |                                   95 |                                  68 |                                 5 |                                   5 |
-+----+------------------------------+------------------+----------------+-----------------------+-----------------------+----------------------------+------------------------------+----------------------------+------------------------------------+--------------------------------------+-------------------------------------+-----------------------------------+-------------------------------------+
-
-answer:  SUM > 665.0
